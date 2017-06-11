@@ -8,6 +8,7 @@
 
 import UIKit
 
+// 테이블뷰의 셀의 뷰
 class TableViewCell: UITableViewCell {
 
     @IBOutlet weak var titleLabel: UILabel!
@@ -16,6 +17,7 @@ class TableViewCell: UITableViewCell {
     @IBOutlet weak var data1Label: UILabel!
     @IBOutlet weak var data2Label: UILabel!
 
+    
     func setup(model: Model) {
         titleLabel.text = model.title
         subtitleLabel.text = model.subTitle

@@ -6,6 +6,7 @@
 
 import UIKit
 
+// 커스텀 셀의 모델
 class Model {
     var title = ""
     var subTitle = ""
